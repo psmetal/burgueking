@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <title>BurgueKing</title>
+</head>
+
+<body>
+    <div class="apreseted">
+    <h1>Bem-vindo ao BurgueKing</h1>
+        <p>O melhor lugar para saborear os melhores hambúrgueres!</p>
+    </div>       
+    <div class="container">
+        
+       
+        <button onclick="mostrarCardapio()">Ver todo nosso cardápio <b>forEach</b></button>
+        <button onclick="window.location.href='contact.html'">Mapear lanche <b>map</b></button>
+        <button onclick="window.location.href='vegan.html'">Ver opções veganas <b>filter</b></button>
+        <button onclick="window.location.href='reduce.html'">Calcular total <b>reduce</b></button>
+
+    </div>
+    <div class="menu">
+        <ul id="menu-list">
+        </ul>
+    </div>
+    
+</body>
+<script src="produtos.js"></script>
+<script src="scripts.js"></script>
+</html>
