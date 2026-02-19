@@ -68,16 +68,16 @@ body{
     
     text-align: center;
     display: grid;
-    grid-template-columns: 200px 200px 200px ;
+    grid-template-columns: 400px 400px  400px ;
    
     gap: 20px;
     margin-bottom: 30px;
 }
 .menu li{
-    background-color: #e9ebef32;
+    background-color: #343c47ef;
     padding: 20px;
     border-radius: 10px;
-    width: 200px;
+    width: 400px;
     box-shadow: #79cb15 0px 4px 8px;
 }
 .menu li img{
@@ -87,6 +87,15 @@ body{
     box-shadow: #79cb15 0px 4px 8px;
 }
 .price{
-    color: #79cb15;
+    color: #15cb5b;
     font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;   
 }
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;   
+}
+
+

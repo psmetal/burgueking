@@ -15,3 +15,4 @@ function mostrarCardapio() {
     menuList.appendChild(listItem);
   });
 }
+
